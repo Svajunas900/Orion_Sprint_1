@@ -17,5 +17,6 @@ def print_generator_values(user_input):
     for value in values:
         print(value)
 
+
 print_generator_values(5)
 
