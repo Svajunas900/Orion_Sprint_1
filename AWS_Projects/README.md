@@ -1,8 +1,14 @@
-<!-- Create on the AWS Free account - Lambda Function which should calculate the Fubo sequence by receiving the user
-   variable. In the Git repo create the Separate Folder in the Orion Sprint 1 named (AWS Projects) in this folder create the Readme.md 
-   file with described:
-   a. Lambda URL
-   b. Payload to lambda
-   c. Responce from Lambda
-   d. Readme file should be done as document with Content, right described URL and full description
-   e. check that lambda will not triger any paid resources -->
+
+## a. Lambda URL
+
+https://ma4tlb2wbsmrp4gdkfor55qfl40xgghu.lambda-url.us-east-1.on.aws/ 
+
+## b. Payload to lambda
+
+MyFibo AWS lambda function takes key-value pair as an argument 
+user_input: USER_PROVIDED_INTEGER. 
+   
+## c. Response from Lambda
+
+Lambda returns fibonnaci sequence number in the user provided location 
+   
