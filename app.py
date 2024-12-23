@@ -1,7 +1,7 @@
 """Generator which stores n values provided by user
 Values calculated based on equation provided 'num_next = (num_previous * 3) // 5'
 num_previous chosen randomly"""
-def generator(user_input):
+def generator(user_input: int):
     num_previous = 1000
     """Iterating as many times as user provided"""
     for _ in range(user_input):
@@ -12,7 +12,7 @@ def generator(user_input):
 
 
 """Iterates through generator object and prints the value as many times as user provides"""
-def print_generator_values(user_input):
+def print_generator_values(user_input: int) -> None:
     values = generator(user_input)
     for value in values:
         print(value)
